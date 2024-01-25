@@ -1,0 +1,64 @@
+## Difference between Library and Framewok?
+ 
+- Libraried target a specific functionality, while a framework tries to provide
+everything required to develop a complete application.
+
+- Frameworks and libraries are both code written by someone else that helps 
+you perform some common tasks in a less verbose way.
+
+- A framework inverts the control of the program. It tells the developer 
+what they need. A library doesn’t. The programmer calls the library where 
+and when they need it.
+
+- The degree of freedom a library or framework gives the developer 
+will dictate how “opinionated” it is.
+
+--------------------------------------------------------------------
+
+## Why is React known as React?
+
+- It was developed by Facebook, and the name “React” was chosen because 
+it is meant to help developers build user interfaces that are fast and responsive, 
+or “reactive.” The library was designed to “react” to changes in data.
+
+--------------------------------------------------------------------
+
+## What is crossorigin in script tag?
+
+The HTML crossorigin Attribute in <link> element is used to specifying that supports 
+the HTTP CORS request when fetching or loading the stylesheet or icon files from the third-party server. 
+Attribute Values: anonymous: It has a default value.
+
+--------------------------------------------------------------------
+
+## What is the meaning of render in react?
+
+React renders HTML to the web page by using a function called render(). 
+The purpose of the function is to display the specified HTML code inside the specified HTML element. 
+In the render() method, we can read props and state and return our JSX code to the root component of our app.
+
+--------------------------------------------------------------------
+
+## What exactly is render in react?
+
+Rendering is React's process of describing a user interface based on the application's current state and props. 
+The initial render in a React app is the first render when the application starts up, while re-rendering occurs 
+when there is a change in the state to figure out which parts of the UI need an update.
+
+--------------------------------------------------------------------
+
+## What is difference between react and react-dom??
+
+React is a JavaScript library for building user interfaces, while ReactDOM is a separate package that provides DOM-specific methods 
+for managing React components. In essence, React is the core library for creating components, and ReactDOM is responsible 
+for rendering those components in a browser environment.
+
+--------------------------------------------------------------------
+
+## async and defer??
+
+Asynchronous scripts don't wait for each other. So if a smaller script is second in the order, it will be loaded before the previous longer one. 
+Deferred scripts maintain their relative order which means the first script will be loaded first while all others below it will have to wait.
+
+--------------------------------------------------------------------
+
